@@ -9,6 +9,7 @@ export default styled.button`
     padding: 5px 10px;
     opacity: 0.8;
     transition: .1s ease-out;
+    margin: 5px;
     &:active {
         background-color: #164081;
         opacity: 1;

@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export"
+    "export": "next export",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "build-storybook-static": "build-storybook -o ./out/storybook"
   },
   "dependencies": {
     "emotion": "^11.0.0",
@@ -17,7 +20,14 @@
     "theme-ui": "^0.7.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@storybook/addon-actions": "^6.2.8",
+    "@storybook/addon-essentials": "^6.2.8",
+    "@storybook/addon-links": "^6.2.8",
+    "@storybook/react": "^6.2.8",
     "@types/react": "^17.0.3",
+    "babel-loader": "^8.2.2",
+    "storybook-addon-designs": "^5.4.5",
     "typescript": "^4.2.4"
   }
 }

@@ -12,6 +12,7 @@ export default function Home() {
         justifyContent: 'center'
       }}>
         <Button>This is me!</Button>
+        <Button onClick={() => location.href = '/storybook'}>Let's see storybook</Button>
       </Flex>
   )
 }
